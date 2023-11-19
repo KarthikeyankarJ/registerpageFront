@@ -8,7 +8,7 @@ const Loyout = ({Children}) => {
     <Header />
     <div className='content'>
       {Children}
-      <h1>Home Page</h1>
+      <h1>Site Under Process</h1>
 
     </div>
 

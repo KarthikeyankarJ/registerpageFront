@@ -37,7 +37,7 @@ useEffect(()=>{
       <div className="register-page">
         {loading && <Spinner />}
       <Form layout='vertical' onFinish={submitHandler}>
-        <h1>Register Foam</h1>
+        <h1>Welcome to KarthinfoTech</h1>
         <Form.Item label="Name" name="name">
           <Input />
         </Form.Item>
@@ -48,7 +48,7 @@ useEffect(()=>{
           <Input type="password"/>
         </Form.Item>
         <div className='d-flex justify-content-between'>
-          <Link to="/login">Alreay Register ? Click here to login</Link>
+          <Link className='link' to="/login">Alreay Register ? Click here to login &nbsp; &nbsp;</Link>
           <button className='btn btn-primary'>Register</button>
         </div>
       </Form>

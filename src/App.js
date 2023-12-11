@@ -3,7 +3,7 @@ import HomePage from './pages/HomePage';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import axios from 'axios';
-axios.defaults.baseURL = 'https://loginregister-6j8l.onrender.com/api/v1'
+axios.defaults.baseURL = 'https://deploy-trainning.onrender.com/api/v1'
 function App() {
   return (
     <>
